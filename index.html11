@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murari Sivaraju - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 5px solid #ff6f61;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+    }
+
+    .section {
+      background: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: #2a5298;
+      border-bottom: 2px solid #ff6f61;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .skill-card, .project-card {
+      background: #f4f4f9;
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1 1 calc(33.333% - 40px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .skill-card h3, .project-card h3 {
+      color: #2a5298;
+      margin: 0 0 10px;
+    }
+
+    .project-card p {
+      margin: 0;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .contact-info div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact-info i {
+      color: #ff6f61;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2a5298;
+      color: white;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Murari Sivaraju</h1>
+    <p>Aspiring Java Fullstack Developer | Passionate about Building Scalable Web Solutions</p>
+  </header>
+
+  <div class="container">
+    <!-- Career Objective -->
+    <section class="section">
+      <h2>Career Objective</h2>
+      <p>
+        To secure a position as a <strong>Java Fullstack Developer</strong> in a reputed firm, where I can contribute my knowledge and skills for the growth and development of the organization while growing professionally and pursuing my interests in establishing a career in the corporate world.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+      <h2>Education</h2>
+      <div class="education">
+        <div class="education-item">
+          <h3>Narasaraopeta Engineering College</h3>
+          <p><strong>B.Tech in Electronics and Communication Engineering</strong></p>
+          <p>CGPA: 8.43 | 2024</p>
+        </div>
+        <div class="education-item">
+          <h3>Sri Chaitanya Junior College</h3>
+          <p><strong>M.P.C</strong></p>
+          <p>CGPA: 9.45 | 2020</p>
+        </div>
+        <div class="education-item">
+          <h3>Z P H School Sanikavaram</h3>
+          <p><strong>SSC</strong></p>
+          <p>CGPA: 9.5 | 2018</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div class="skill-card">
+          <h3>Core Java</h3>
+        </div>
+        <div class="skill-card">
+          <h3>JDBC</h3>
+        </div>
+        <div class="skill-card">
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill-card">
+          <h3>HTML & CSS</h3>
+        </div>
+        <div class="skill-card">
+          <h3>OOPS Concepts</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Exception Handling</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Multi-Threading</h3>
+        </div>
+        <div class="skill-card">
+          <h3>Collection Framework</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Heartbeat and Alcohol Detection in Smart Transportation (IoT)</h3>
+          <p><strong>Role:</strong> Team Leader</p>
+          <p>Developed an IoT-based system to monitor driver health and alcohol consumption for enhancing transportation safety.</p>
+        </div>
+        <div class="project-card">
+          <h3>Dairy Management System</h3>
+          <p><strong>Role:</strong> Backend Developer</p>
+          <p>Built a comprehensive system to streamline and digitize dairy operations, ensuring efficiency and accuracy in data management.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-envelope"></i>
+          <p>murarisivaraju@gmail.com</p>
+        </div>
+        <div>
+          <i class="fas fa-phone"></i>
+          <p>+91 9392990569</p>
+        </div>
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Bangalore, Karnataka, India</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Murari Sivaraju. All rights reserved. | <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
